@@ -15,7 +15,7 @@ hero:
       link: /game/install_guide
     - theme: alt
       text: 关于
-      link: /api-examples
+      link: /about/about
 
 features:
   - icon: 📟

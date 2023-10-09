@@ -49,7 +49,8 @@ export default {
             collapsed: false,
             items: [
               { text: '比赛用仪表', link: '/data/meters' },
-              { text: '等级', link: '/data/levels' }
+              { text: '等级', link: '/data/levels' },
+              { text: '车辆一览', link: '/data/cars' }
             ]
           }
         ]
@@ -95,11 +96,13 @@ export default {
             {
               items: [
                 { text: '比赛用仪表', link: '/data/meters' },
-                { text: '等级', link: '/data/levels' }
+                { text: '等级', link: '/data/levels' },
+                { text: '车辆一览', link: '/data/cars' }
               ]
             }
           ]
-        }
+        },
+        { text: '关于', link: '/about/about' }
       ],
 
       // 本地化搜索（已对接flexSearch，但有一点点Bug）
@@ -107,14 +110,19 @@ export default {
         provider: 'local'
       },
 
+      // 零散的汉化
+      returnToTopLabel: '返回顶部',
+      darkModeSwitchLabel: '外观',
+      sidebarMenuLabel: '归档',
+
       // 编辑此页（文章末尾显示）
       editLink: {
-        pattern: "https://github.com/https://github.com/SeasonRC/docs/edit/main/docs/:path",
-        text: "编辑此页",
+        pattern: "https://github.com/SeasonRC/docs/tree/main/docs/:path",
+        text: "在 GitHub 上编辑此页",
       },
 
       // 最后更新
-      lastUpdatedText: "最后一次更新",
+      lastUpdatedText: "最后一次更新于",
 
       // 右侧导览
       outlineTitle: "在此页面上的内容",
