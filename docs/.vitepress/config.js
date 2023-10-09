@@ -17,6 +17,13 @@ export default {
             { text: '服务器公告', link: '/server/server_info' },
             { text: '在线活动信息', link: '/server/online_event' }
           ]
+        },
+        {
+          text: '数据',
+          items: [
+            { text: '比赛用仪表', link: '/data/meters' },
+            { text: '等级', link: '/data/levels' }
+          ]
         }
       ],
 

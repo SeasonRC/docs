@@ -41,3 +41,18 @@
 .medium-zoom-image {
   z-index: 30; /* 不能低于30，否则大尺寸图片会导致UI出现Bug */
 }
+
+/* 使表格可以滚动，让其适应屏幕宽度 */
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+}
+
+/* 设置表格中的单元格宽度为百分比，以实现左右拉伸 */
+table th,
+table td {
+  width: 10%; /* 可以根据需要调整宽度 */
+  padding: 8px; /* 可以根据需要调整内边距 */
+  text-align: left; /* 可以根据需要调整文本对齐方式 */
+}
