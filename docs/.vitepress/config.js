@@ -35,7 +35,7 @@ export default {
       algolia: {
         appId: "A0N9LSOX9R",
         apiKey: "26500109ada0a476d8c47f08d31e08e4",
-        indexName: "SRC-Search",
+        indexName: "SRC",
         locales: {
           root: {
             label: "简体中文",

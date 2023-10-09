@@ -1,5 +1,5 @@
 {
-    "index_name": "SRC-Search",
+    "index_name": "SRC",
     "start_urls": ["https://shimokitazawa.cn/"],
     "rateLimit": 8,
     "maxDepth": 10,
