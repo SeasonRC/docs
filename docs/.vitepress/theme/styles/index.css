@@ -1,3 +1,4 @@
+/* 修复flexSearch导致的搜索框UI问题 */
 .DocSearch-Button {
   display: flex;
   justify-content: center;
@@ -30,4 +31,13 @@
     width: 32px !important;
     border-radius: 4px;
   }
+}
+
+/* 图片缩放 */
+.medium-zoom-overlay {
+  z-index: 20;
+}
+
+.medium-zoom-image {
+  z-index: 30; /* 不能低于30，否则大尺寸图片会导致UI出现Bug */
 }
