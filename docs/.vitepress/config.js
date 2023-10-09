@@ -31,11 +31,11 @@ export default {
         }
       ],
 
-      // 搜索功能（接入algolia，未知能否使用）
+      // 搜索功能
       algolia: {
-        appId: "9LKEC2NBGE",
-        apiKey: "ba1b78c7e548dfd33999d9c4d93fa586",
-        indexName: "SeasonRC",
+        appId: "A0N9LSOX9R",
+        apiKey: "26500109ada0a476d8c47f08d31e08e4",
+        indexName: "SRC-Search",
         locales: {
           root: {
             label: "简体中文",
@@ -108,7 +108,7 @@ export default {
       // 页脚
       footer: {
         copyright: "Copyright © 2023-present Season Racing Club",
-        message: "由 VitePress 强力驱动",
+        message: "由 VitePress 和 Algolia DocSearch 强力驱动",
       },
     }
   }

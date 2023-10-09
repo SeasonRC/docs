@@ -31,7 +31,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+          fetch-depth: 1 # Not needed if lastUpdated is not enabled
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
