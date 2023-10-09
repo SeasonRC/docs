@@ -62,7 +62,7 @@ export default {
       // 页脚
       footer: {
         copyright: "Copyright © 2023-present Season Racing Club",
-        message: "由 VitePress 和 Algolia DocSearch 强力驱动",
+        message: "由 VitePress 和 Flex Search 强力驱动",
       },
     }
   }
