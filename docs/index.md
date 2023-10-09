@@ -9,7 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 进入Wiki
-      link: /server/server_info
+      link: /server/info/server_info
+    - theme: brand
+      text: 游戏安装教程
+      link: /game/install_guide
     - theme: alt
       text: 关于
       link: /api-examples

@@ -8,32 +8,96 @@ export default {
       logo: '/imgs/logo.png',
       lastUpdated: true,
 
-      // 导航栏（顶部）
+      // 侧边栏
+      sidebar: {
+        '/server/': [
+          {
+            text: '服务器',
+            collapsed: false,
+            items: [
+              { text: '服务器公告', link: '/server/info/server_info' },
+              { text: '在线活动信息', link: '/server/info/online_event' },
+              { text: '历代OCM殿堂', link: '/server/info/ocm_hof' },
+              { text: '更新历史', link: '/server/info/update_history' }
+            ]
+          },
+          {
+            text: '排行榜',
+            collapsed: false,
+            items: [
+              { text: 'TimeAttack 排名', link: '/server/rank/timeattack_rank' },
+              { text: 'OCM 排名', link: '/server/rank/ocm_rank' },
+              { text: 'VSORG 排名', link: '/server/rank/vsorg_rank' }
+            ]
+          }
+        ],
+
+        '/game/': [
+          {
+            text: '游戏',
+            collapsed: false,
+            items: [
+              { text: '游戏安装教程', link: '/game/install_guide' },
+              { text: '常见问题修复', link: '/game/problem_fix' }
+            ]
+          }
+        ],
+
+        '/data/': [
+          {
+            text: '数据',
+            collapsed: false,
+            items: [
+              { text: '比赛用仪表', link: '/data/meters' },
+              { text: '等级', link: '/data/levels' }
+            ]
+          }
+        ]
+      },
+
+      // 导航栏
       nav: [
         { text: '主页', link: '/' },
-        { 
+        {
           text: '服务器',
           items: [
-            { text: '服务器公告', link: '/server/server_info' },
-            { text: '在线活动信息', link: '/server/online_event' }
+            {
+              items: [
+                { text: '服务器公告', link: '/server/info/server_info' },
+                { text: '在线活动信息', link: '/server/info/online_event' },
+                { text: '历代OCM殿堂', link: '/server/info/ocm_hof' },
+                { text: '更新历史', link: '/server/info/update_history' }
+              ]
+            },
+            {
+              items: [
+                { text: 'TimeAttack 排名', link: '/server/rank/timeattack_rank' },
+                { text: 'OCM 排名', link: '/server/rank/ocm_rank' },
+                { text: 'VSORG 排名', link: '/server/rank/vsorg_rank' }
+              ]
+            }
+          ]
+        },
+        {
+          text: '游戏',
+          items: [
+            {
+              items: [
+                { text: '游戏安装教程', link: '/game/install_guide' },
+                { text: '常见问题修复', link: '/game/problem_fix' }
+              ]
+            }
           ]
         },
         {
           text: '数据',
           items: [
-            { text: '比赛用仪表', link: '/data/meters' },
-            { text: '等级', link: '/data/levels' }
-          ]
-        }
-      ],
-
-      // 侧边栏（左侧）
-      sidebar: [
-        {
-          text: '服务器',
-          items: [
-            { text: '服务器公告', link: '/server/server_info' },
-            { text: '在线活动信息', link: '/server/online_event' }
+            {
+              items: [
+                { text: '比赛用仪表', link: '/data/meters' },
+                { text: '等级', link: '/data/levels' }
+              ]
+            }
           ]
         }
       ],
