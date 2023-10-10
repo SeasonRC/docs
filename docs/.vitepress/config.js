@@ -5,7 +5,7 @@ export default {
   
     // Theme related configurations.
     themeConfig: {
-      logo: '/imgs/logo.png',
+      logo: 'https://pic.imgdb.cn/item/6524f299c458853aef996355.png',
       lastUpdated: true,
 
       // 侧边栏
