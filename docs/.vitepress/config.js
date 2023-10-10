@@ -1,11 +1,12 @@
 export default {
+    base: '/docs/',
     lang: 'zh-CN',
     title: 'Season RC Wiki',
     description: 'A WMMT Wiki',
   
     // Theme related configurations.
     themeConfig: {
-      logo: '/imgs/logo.png',
+      logo: '/logo.png',
       lastUpdated: true,
 
       // 侧边栏
