@@ -6,6 +6,9 @@ hero:
   name: "Season RC Wiki"
   text: "您所需的，这里都有"
   tagline: 想要什么？自己进去找吧
+  image:
+    src: /imgs/logo.png
+    alt: SeasonRC
   actions:
     - theme: brand
       text: 进入Wiki
