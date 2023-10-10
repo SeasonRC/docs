@@ -60,9 +60,16 @@ export default {
             text: '数据',
             collapsed: false,
             items: [
-              { text: '比赛用仪表', link: '/data/meters' },
-              { text: '等级', link: '/data/levels' },
-              { text: '车辆一览', link: '/data/cars' }
+              { text: '比赛用仪表', link: '/data/normal_data/meters' },
+              { text: '等级', link: '/data/normal_data/levels' }
+            ]
+          },
+          {
+            text: '车辆',
+            collapsed: false,
+            items: [
+              { text: '车辆一览', link: '/data/car_data/cars' },
+              { text: '隐藏车大全', link: '/data/car_data/hide_cars' }
             ]
           }
         ]
@@ -112,9 +119,14 @@ export default {
           items: [
             {
               items: [
-                { text: '比赛用仪表', link: '/data/meters' },
-                { text: '等级', link: '/data/levels' },
-                { text: '车辆一览', link: '/data/cars' }
+                { text: '比赛用仪表', link: '/data/normal_data/meters' },
+                { text: '等级', link: '/data/normal_data/levels' }
+              ]
+            },
+            {
+              items :[
+                { text: '车辆一览', link: '/data/car_data/cars' },
+                { text: '隐藏车大全', link: '/data/car_data/hide_cars' }
               ]
             }
           ]
