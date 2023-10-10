@@ -164,7 +164,7 @@ export default {
 
       // 社交链接（右上角）
       socialLinks: [
-        { icon: "github", link: "https://github.com/Zj031210" }
+        { icon: "github", link: "https://github.com/SeasonRC" }
       ],
 
       // 页脚
