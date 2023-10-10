@@ -141,8 +141,8 @@ export default {
 
       // 零散的汉化
       returnToTopLabel: '返回顶部',
-      darkModeSwitchLabel: '外观',
-      sidebarMenuLabel: '归档',
+      darkModeSwitchLabel: '浅色/深色模式',
+      sidebarMenuLabel: '菜单',
 
       // 编辑此页（文章末尾显示）
       editLink: {
@@ -169,7 +169,7 @@ export default {
 
       // 页脚
       footer: {
-        copyright: "Copyright © 2023-present Season Racing Club",
+        copyright: "Copyright © 2023-Present Season Racing Club",
         message: "由 VitePress 和 Flex Search 强力驱动",
       },
     }
