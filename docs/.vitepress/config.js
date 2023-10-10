@@ -5,7 +5,12 @@ export default {
   
     // Theme related configurations.
     themeConfig: {
-      logo: 'https://pic.imgdb.cn/item/6524f299c458853aef996355.png',
+
+      head: [
+        ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
+      ],
+
+      logo: { src: '/logo.png', width: 24, height: 24 },
       lastUpdated: true,
 
       // 侧边栏

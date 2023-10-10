@@ -7,7 +7,7 @@ hero:
   text: "您所需的，这里都有"
   tagline: 想要什么？自己进去找吧
   image:
-    src: https://pic.imgdb.cn/item/6524f299c458853aef996355.png
+    src: /logo.png
     alt: SeasonRC
   actions:
     - theme: brand
