@@ -34,6 +34,13 @@ export default {
               { text: 'OCM 排名', link: '/server/rank/ocm_rank' },
               { text: 'VSORG 排名', link: '/server/rank/vsorg_rank' }
             ]
+          },
+          {
+            text: '车辆数据',
+            collapsed: false,
+            items: [
+              { text: '服务器改车站', link: '/server/car_data/car_editor' }
+            ]
           }
         ],
 
@@ -80,6 +87,11 @@ export default {
                 { text: 'TimeAttack 排名', link: '/server/rank/timeattack_rank' },
                 { text: 'OCM 排名', link: '/server/rank/ocm_rank' },
                 { text: 'VSORG 排名', link: '/server/rank/vsorg_rank' }
+              ]
+            },
+            {
+              items: [
+                { text: '服务器改车站', link: '/server/car_data/car_editor' }
               ]
             }
           ]
