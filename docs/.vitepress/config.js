@@ -1,5 +1,4 @@
 export default {
-    base: '/docs/',
     lang: 'zh-CN',
     title: 'Season RC Wiki',
     description: 'A WMMT Wiki',
