@@ -21,9 +21,16 @@ export default {
             collapsed: false,
             items: [
               { text: '服务器公告', link: '/server/info/server_info' },
-              { text: '在线活动信息', link: '/server/info/online_event' },
               { text: '历代OCM殿堂', link: '/server/info/ocm_hof' },
               { text: '更新历史', link: '/server/info/update_history' }
+            ]
+          },
+          {
+            text: '在线活动信息',
+            collapsed: false,
+            items: [
+              { text: '最新活动', link: '/server/online_events/latest_event' },
+              { text: '以往在线活动', link: '/server/online_events/old_event' }
             ]
           },
           {
@@ -87,6 +94,12 @@ export default {
                 { text: '在线活动信息', link: '/server/info/online_event' },
                 { text: '历代OCM殿堂', link: '/server/info/ocm_hof' },
                 { text: '更新历史', link: '/server/info/update_history' }
+              ]
+            },
+            {
+              items: [
+                { text: '最新活动', link: '/server/online_events/latest_event' },
+                { text: '以往在线活动', link: '/server/online_events/old_event' }
               ]
             },
             {
