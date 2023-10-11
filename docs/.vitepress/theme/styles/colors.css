@@ -1,0 +1,12 @@
+html.dark {
+    color-scheme: dark;
+  }
+  
+  .dark {
+    --vp-c-bg: transparent;
+  }
+  
+  .dark .VPContent {
+    background-color: rgb(10, 10, 11);
+    background-image: url("/grid.svg");
+  }  

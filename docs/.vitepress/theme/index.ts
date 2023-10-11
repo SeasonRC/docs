@@ -5,7 +5,7 @@ import { onMounted, watch, nextTick } from 'vue';
 import { useRoute } from 'vitepress';
 import mediumZoom from 'medium-zoom';
 
-import "./styles/index.css";
+import "./styles/main.css";
 
 export default {
   ...DefaultTheme,

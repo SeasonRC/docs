@@ -1,0 +1,58 @@
+/* 修复flexSearch导致的搜索框UI问题 */
+.DocSearch-Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: transparent;
+    transition: border-color 0.25s;
+  }
+  @media (min-width: 768px) {
+    .DocSearch-Button {
+      justify-content: flex-start;
+      border: 1px solid transparent;
+      border-radius: 8px;
+      padding: 0 10px 0 12px;
+      width: 100%;
+      height: 40px;
+      background-color: var(--vp-c-bg-alt);
+    }
+  }
+  @media (max-width: 768px) {
+    .DocSearch-Button-Keys {
+      display: none;
+    }
+    .VPNavBarHamburger{
+      height: 32px !important;
+      width: 32px !important;
+      border-radius: 4px;
+    }
+  }
+  
+  /* 图片缩放 */
+  .medium-zoom-overlay {
+    z-index: 20;
+  }
+  
+  .medium-zoom-image {
+    z-index: 30; /* 不能低于30，否则大尺寸图片会导致UI出现Bug */
+  }
+  
+  /* 使表格可以滚动，让其适应屏幕宽度 */
+  table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+  
+  /* 设置表格中的单元格宽度为百分比，以实现左右拉伸 */
+  table th,
+  table td {
+    width: 10%; /* 可以根据需要调整宽度 */
+    padding: 8px; /* 可以根据需要调整内边距 */
+    text-align: left; /* 可以根据需要调整文本对齐方式 */
+  }
