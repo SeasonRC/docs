@@ -1,6 +1,6 @@
 # 历代OCM殿堂
 
-## #1 OCM 第13届 `横滨区域`
+## #1 OCM 第14届 `横滨区域`
 
 ![1](https://pic.imgdb.cn/item/651869fbc458853aef763b8a.jpg)
 
