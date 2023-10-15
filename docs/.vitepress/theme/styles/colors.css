@@ -3,10 +3,5 @@ html.dark {
   }
   
   .dark {
-    --vp-c-bg: transparent;
+    --vp-c-bg: black;
   }
-  
-  .dark .VPContent {
-    background-color: rgb(10, 10, 11);
-    background-image: url("/grid.svg");
-  }  
