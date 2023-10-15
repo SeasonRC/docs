@@ -27,28 +27,28 @@
 
 ## 预赛奖励牌
 
-**オールドカウンター**  
+**サクラフブキ**  
 
 ![1](https://pic.imgdb.cn/item/652b75a1c458853aeffc52f4.png)  
 ![2](https://pic.imgdb.cn/item/652b75a2c458853aeffc5388.png)  
 ![3](https://pic.imgdb.cn/item/652b75a2c458853aeffc53b8.png)  
 ![4](https://pic.imgdb.cn/item/652b75a2c458853aeffc540b.png)  
 
-**フレイム**
+**シルバークラフト２**
 
 ![5](https://pic.imgdb.cn/item/652b75d0c458853aeffcf2d3.png)  
 ![6](https://pic.imgdb.cn/item/652b75d0c458853aeffcf30a.png)  
 ![7](https://pic.imgdb.cn/item/652b75d0c458853aeffcf346.png)  
 ![8](https://pic.imgdb.cn/item/652b75d0c458853aeffcf2b8.png)  
 
-**クラッシュ**
+**オルテガ**
 
 ![9](https://pic.imgdb.cn/item/652b75ebc458853aeffd431f.png)  
 ![10](https://pic.imgdb.cn/item/652b75ebc458853aeffd4332.png)  
 ![11](https://pic.imgdb.cn/item/652b75ebc458853aeffd435a.png)  
 ![12](https://pic.imgdb.cn/item/652b75ebc458853aeffd438e.png)  
 
-**フェザー**  
+**サイバー**  
 
 ![13](https://pic.imgdb.cn/item/652b7611c458853aeffdb231.png)  
 ![14](https://pic.imgdb.cn/item/652b7611c458853aeffdb262.png)  
@@ -57,14 +57,14 @@
 
 ## 正赛奖励牌
 
-**シャークマウス**
+**シティ**
 
 ![17](https://pic.imgdb.cn/item/652b762cc458853aeffe0033.png)  
 ![18](https://pic.imgdb.cn/item/652b762cc458853aeffe005c.png)  
 
 ## 前20名可获得金牌
 
-**角竜**
+**ワイバーン**
 
 ![gold_plate](https://pic.imgdb.cn/item/652b763ec458853aeffe2d07.png)  
 
