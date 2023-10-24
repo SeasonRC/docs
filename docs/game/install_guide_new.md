@@ -4,7 +4,7 @@
 
 ## 一、下载客户端
 
-首先，下载此文件：[SeasonRC_WMMT6R.zip](null)。  
+首先，下载此文件：[SeasonRC_WMMT6R.zip](https://shimokitazawa.cn/404)。  
 
 下载完成之后，解压到任意 **非中文名、无空格** 的目录下。  
 
@@ -73,7 +73,7 @@
 
 ## 五、创建账号
 
-1. 浏览器打开 [Zerodream](null)
+1. 浏览器打开 [Zerodream](https://shimokitazawa.cn/404)
 2. 在左侧点击 “注册账号” 按钮
 3. 按照提示填写信息，点击注册
 4. 注册成功后，输入账号密码登录，然后使用微信扫码绑定微信
