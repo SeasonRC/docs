@@ -64,7 +64,8 @@ export default {
             collapsed: false,
             items: [
               { text: '游戏安装教程', link: '/game/install_guide' },
-              { text: '常见问题修复', link: '/game/problem_fix' }
+              { text: '常见问题修复', link: '/game/problem_fix' },
+              { text: '游戏安装教程（暂未启用）', link: '/game/install_guide_new' }
             ]
           }
         ],
@@ -130,6 +131,11 @@ export default {
               items: [
                 { text: '游戏安装教程', link: '/game/install_guide' },
                 { text: '常见问题修复', link: '/game/problem_fix' }
+              ]
+            },
+            {
+              items: [
+                { text: '游戏安装教程（暂未启用）', link: '/game/install_guide_new' }
               ]
             }
           ]
