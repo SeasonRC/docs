@@ -21,7 +21,6 @@ export default {
             collapsed: false,
             items: [
               { text: '服务器公告', link: '/server/info/server_info' },
-              { text: '历代OCM殿堂', link: '/server/info/ocm_hof' },
               { text: '更新历史', link: '/server/info/update_history' }
             ]
           },
@@ -100,7 +99,6 @@ export default {
               items: [
                 { text: '服务器公告', link: '/server/info/server_info' },
                 { text: '在线活动信息', link: '/server/info/online_event' },
-                { text: '历代OCM殿堂', link: '/server/info/ocm_hof' },
                 { text: '更新历史', link: '/server/info/update_history' }
               ]
             },
