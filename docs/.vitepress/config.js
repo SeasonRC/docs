@@ -33,7 +33,8 @@ export default {
                 text: '以往在线活动',
                 collapsed: true,
                 items: [
-                  { text: '#3 OCM 13st 新环线区域', link: '/server/online_events/old_event/3th_OCM' },
+                  { text: '#4 OCM 18st 福冈区域', link:'/server/online_events/old_event/4th_OCM' },
+                  { text: '#3 OCM 13st 新环线区域', link: '/server/online_events/old_event/3rd_OCM' },
                   { text: '远古活动集', link: '/server/online_events/old_event/ancient_event' }
                 ]
               }
@@ -105,7 +106,7 @@ export default {
             {
               items: [
                 { text: '最新活动', link: '/server/online_events/latest_event' },
-                { text: '以往在线活动', link: '/server/online_events/old_event/3th_OCM' }
+                { text: '以往在线活动', link: '/server/online_events/old_event/4th_OCM' }
               ]
             },
             {
